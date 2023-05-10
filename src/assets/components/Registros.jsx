@@ -3,7 +3,7 @@ import Data from "./Data";
 
 const Registros = ({registros,data}) => {
     return (
-        <div>
+        <div className="registros">
             {registros.map((item) => {
                 return (
                     <Data key={item.id} item={item}/>
